@@ -12532,3 +12532,32 @@ main .main-scroll .intro-demo-wrapper {
 .display-none {
   display: none;
 }
+
+/*CUSTOM*/
+.logo img{
+  object-fit: contain;
+}
+
+@media only screen and (max-width:768px){
+  .project-preview-images{
+    width: 100%;
+    background: #000;
+  }
+  .project-preview-images img{
+    opacity: 0.5;
+  }
+  .preview-article-header > h2 > a,
+  .open-full-post{
+    color: #fff !important;
+  }
+  .open-full-post:before{
+    border-color: #fff;
+  }
+  .logo,
+  .show-nav{
+    height: 60px;
+  }
+  .logo{
+    padding: 10px;
+  }
+}

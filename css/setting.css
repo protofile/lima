@@ -438,7 +438,7 @@ form textarea, form input {
 }
 
 .project-count span, .project-count {
-    color: #a9acb5;
+    color: rgba(0,0,0,0.5);
 }
 
 .full-post-close:before, .full-post-close:after, .close-projects-btn.close-projects-btn-loaded:before, .close-projects-btn.close-projects-btn-loaded:after, .close-projects-btn span {
@@ -546,4 +546,10 @@ div.cs-select .cs-options ul {
 
 .row-overlay {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+    .project-count span, .project-count {
+        color: rgba(255,255,255,0.5);
+    }
 }
